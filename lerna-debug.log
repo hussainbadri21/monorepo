@@ -1,0 +1,19 @@
+0 silly argv { _: [ 'clean' ],
+0 silly argv   y: true,
+0 silly argv   yes: true,
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': '../node_modules/.bin/lerna' }
+1 notice cli v4.0.0
+2 verbose rootPath /Users/hussain/Documents/monorepo
+3 error JSONError: Unexpected token "/" (0x2F) in JSON at position 330 while parsing near "...local-test.sh\",\n    // \"postinstall\": \"c..." in create-react-app/package.json
+3 error
+3 error [0m [90m 11 |[39m     [32m"e2e"[39m[33m:[39m [32m"tasks/e2e-simple.sh"[39m[33m,[39m[0m
+3 error [0m [90m 12 |[39m     [32m"e2e:docker"[39m[33m:[39m [32m"tasks/local-test.sh"[39m[33m,[39m[0m
+3 error [0m[31m[1m>[22m[39m[90m 13 |[39m     [90m// "postinstall": "cd packages/react-error-overlay/ && yarn build:prod",[39m[0m
+3 error [0m [90m    |[39m     [31m[1m^[22m[39m[0m
+3 error [0m [90m 14 |[39m     [32m"publish"[39m[33m:[39m [32m"tasks/publish.sh"[39m[33m,[39m[0m
+3 error [0m [90m 15 |[39m     [32m"start"[39m[33m:[39m [32m"cd packages/react-scripts && node bin/react-scripts.js start"[39m[33m,[39m[0m
+3 error [0m [90m 16 |[39m     [32m"screencast"[39m[33m:[39m [32m"node ./tasks/screencast.js"[39m[33m,[39m[0m
+3 error
+3 error     at parseJson (/Users/hussain/Documents/monorepo/node_modules/parse-json/index.js:29:21)
+3 error     at parse (/Users/hussain/Documents/monorepo/node_modules/load-json-file/index.js:15:9)
